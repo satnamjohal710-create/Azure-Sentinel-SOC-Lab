@@ -61,7 +61,7 @@ resource "azurerm_linux_virtual_machine" "sentinel_vm" {
   location                        = azurerm_resource_group.sentinel_rg.location
   size                            = "Standard_D2as_v5" 
   admin_username                  = "adminuser"
-  admin_password                  = "P@ssw0rd1234!" 
+  admin_password                  = "P@sxxxx1234!" 
   disable_password_authentication = false
   
   # Trusted Launch Settings
